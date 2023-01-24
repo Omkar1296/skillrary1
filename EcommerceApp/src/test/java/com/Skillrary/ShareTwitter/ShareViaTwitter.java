@@ -33,10 +33,10 @@ public class ShareViaTwitter extends BaseTest{
 		CoreJavaVideoPage vp=new CoreJavaVideoPage();
 		//wlib.switchFrame();
 	    //vp.playButton();
-		//Thread.sleep(10000);
+		Thread.sleep(10000);
 		//vp.playButton();
-		vp.clickSharViaTwitterLink();;
-		
+		vp.clickSharViaTwitterLink();
+		Thread.sleep(1000);
 		
 		
 	}
